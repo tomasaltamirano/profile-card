@@ -17,6 +17,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -99,4 +100,33 @@ body{
 
 .social-stats p{
     font-size: 12px
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer{
+    margin: 20px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer p{
+    padding: 8px 0;
+}
+
+.footer a{
+    font-weight: normal;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer a:hover{
+    font-weight: 600;
 }
