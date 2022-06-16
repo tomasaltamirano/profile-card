@@ -1,0 +1,102 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:
+    url(/img/bg-pattern-top.svg), 
+    url(/img/bg-pattern-bottom.svg), #19a1ad;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right 47vw bottom 43vh, left 30vw top 50vh;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.main-container{
+    background: #fff;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fondo-container img{
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   margin-bottom: 0;
+   border: #fff;
+} 
+
+.img-container img{
+    border-radius: 50px;
+    transform: translateY(-54px);
+    border: 5px solid #fff;
+    vertical-align: top;
+    
+}
+
+.name-location{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(236, 233, 233);
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.name-location p{
+    font-weight: 700;
+}
+
+.name-location span {
+    margin-left: 8px;
+    font-weight: 300;
+    color: rgb(134, 133, 133);
+    
+}
+
+.name-location .location{
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(134, 133, 133);
+    text-align: center;
+}
+
+.social-stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.social-stats h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.social-stats p{
+    font-size: 12px
+}
